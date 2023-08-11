@@ -30,7 +30,7 @@
 
 - Best of luck
 
-``CREATE TABLE `buildings` (
+CREATE TABLE `buildings` (
 `id` int NOT NULL,
 `building_no` varchar(10) DEFAULT NULL,
 `street_no` varchar(10) DEFAULT NULL,
@@ -45,9 +45,9 @@
 `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
 `updated` timestamp NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-``
 
-``CREATE TABLE `citizens` (
+
+CREATE TABLE `citizens` (
 `id` int NOT NULL,
 `resident_name` varchar(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
 `building_id` int NOT NULL,
@@ -56,6 +56,6 @@
 `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
 `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-``
+
 
 حول ال id ال AI  
